@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
+    <main className="flex min-h-[100dvh] items-center justify-center">
       <div className="mx-12 flex max-w-[800px] flex-col gap-2">
         <div className="pb-4 text-5xl font-black">
           Hi, I&apos;m <span className="text-sky-400">Gabe Landau</span>

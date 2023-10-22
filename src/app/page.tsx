@@ -1,3 +1,5 @@
+import IconButton from '@/components/IconButton';
+
 export default function Home() {
   return (
     <main className="flex min-h-[100dvh] items-center justify-center">
@@ -6,9 +8,14 @@ export default function Home() {
           Hi, I&apos;m <span className="text-sky-400">Gabe Landau</span>
         </div>
         <div className="text-xl dark:text-slate-400">
-          I&apos;m a front-end focused full-stack software engineer. Currently, I am building
-          accessible, web-based experiences for Trust & Safety teams at{' '}
-          <a href="https://www.indeed.com/" target="_blank" className="underline dark:text-sky-200">
+          I&apos;m a front-end focused full-stack software engineer. Currently,
+          I am building accessible, web-based experiences for Trust & Safety
+          teams at{' '}
+          <a
+            href="https://www.indeed.com/"
+            target="_blank"
+            className="underline dark:text-sky-200"
+          >
             Indeed
           </a>
           .
@@ -23,6 +30,18 @@ export default function Home() {
             Landau Webs
           </a>
           .
+        </div>
+        <div className="flex gap-2 pt-4">
+          <IconButton
+            title="LinkedIn"
+            link="http://linkedin.com/in/gabelandau"
+            icon="computer"
+          />
+          <IconButton
+            title="GitHub"
+            link="http://github.com/gabelandau"
+            icon="code"
+          />
         </div>
       </div>
     </main>
